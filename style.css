@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    gap: 0.3rem;
+    align-content: center;
+
+}
+
+.login-container{
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 2px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border: 1px solid #e7e6e6; 
+    text-align: left;
+    
+
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 175px;
+    height: 51px;
+    background-image: url('https://static.cdninstagram.com/rsrc.php/v4/yB/r/E7m8ZCMOFDS.png');
+    background-position: 0px -52px;
+    margin: 0 20px 10px 10px;
+    padding: 10px;
+}
+
+
+input{
+    background-color: #f2f2f2;
+    border: 1px solid #ccc; 
+    margin-top: 0.15rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.55rem;
+    font-size: 12px;
+    outline: none;
+    
+}
+button{
+    background-color: #479af3;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 10px 120px;
+    align-items: center;
+    outline: none;
+    white-space: nowrap;
+}
+
+button :hover{
+    background-color: #394c74;
+}
+  
+
+.login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+    gap: 0.25rem;
+    margin: 1rem, 1rem;
+    text-align: center;
+}
+
+option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    color: rgb(158, 153, 153);
+    font-weight: bold;    
+    
+}
+
+
+.decorated_text:before::after, {
+  content: "";
+  flex: 1;
+  border-top: 1px solid #000; 
+  margin: 0 10px;
+}
+
+
+.Facebook_login{
+    display: flex;
+    align-items: center;
+    color: #3b5998;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 10px 20px;
+    font-size: 13px;
+   
+}
+.Facebook_login2{
+    text-decoration: none;
+}
+
+.facebook-icon{
+    margin-right: 10px;
+}
+
+.Facebook_login :visited{
+    color: #479af3;
+}
+
+.Facebook_login :hover{
+    color: #3b5998;
+}
+
+.Forgot_password{
+    display: flex;
+    align-items: center;
+    color: #3b5998;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+    padding: 10px 50px;
+    text-decoration: none;
+    
+}
+
+.Forgot_password :visited{
+     color: #394f7d;
+}
+
+.Forgot_password :hover{
+     color: #394c74;
+}
+
+
+
+.Sign_up{
+    margin: 0px 0px 10px;
+    width: 350px;
+    height: 40px;
+    border: 1rem;
+    border: 1px solid #e7e6e6; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    text-align: center;
+    
+
+}
+
+.Sgn{
+    color: #479af3;
+    font-size: 13px;
+    font-weight: 600
+}
+
+h2{
+    font-size: small;
+    font-weight: 300;
+    padding-bottom: 0.4%;
+}
+
+
+#hello.icon-container {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0%;
+    margin: 10px 0px;
+    padding-bottom: 50px;
+
+    
+    .icon-container .icon {
+        width: 40px;
+        height: auto;
+        transform: scale(1.1);
+        
+}
+       
+        
+        
+    }
+    a {
+       /*  width: 50%; */
+        display: inline-block;
+       
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+    }
+
+
+ul{
+    list-style-type: none;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    margin-inline: 0.4rem;
+}
+
+li a{
+    color: #737373;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+li a:hover,
+li a:focus {
+    text-decoration: underline;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #737373;
+    font-size: 12px;
+    
+}
+
+
+
+
+select {
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-right: 0;
+    color: #737373;
+}
+
+select option {
+    color: black;
+    font-size: 12px;
+    font-weight: lighter;
+    background-color: white; 
+}
+
